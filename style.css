@@ -1,0 +1,260 @@
+
+
+#main   img{
+    max-height: 60vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+.navbar{
+
+    padding-bottom: 30px;
+    padding-left: 5%;
+}
+
+.navbar a{
+
+    
+}
+.contenedorCarousel{
+
+width: 100%;   
+height: auto;
+}
+
+#carousel´{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+.contenedor{
+ 
+   display: flex;
+   width: 100%;
+   height: 100%;
+   
+   
+ /* background-color: yellow;*/
+}
+
+.contenedorImg{
+    width:15rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+   
+    
+
+}
+
+
+.contenedorTitulo{
+    width: 100%;
+    margin-left: 2rem;
+}
+
+
+.contenedorTitulo h1{
+    
+   font-size: 6rem;
+   font-family: 'Tangerine', serif;
+   width: 100%;
+   margin-top: 150px;
+  /* background-color: red;*/
+   
+    
+}
+
+.contenedor p{
+   
+margin-left: 25%;
+
+    
+}
+
+/* Contenedor quienes somos*/
+
+.contenedormain{
+    display: flex;
+    margin-top: 140px;
+    
+   
+}
+
+
+.contenedormain p{
+width: 40%;
+text-align: center;
+margin-left: 10%;
+margin-right: 50%;
+
+}
+
+.contenedormain img{
+    width: 20rem;
+    margin-top: 10%;
+    border-radius: 100px;
+   
+}
+
+#tituloTienda{
+
+    text-align: center;
+    font-size: 8rem;
+    margin-top: 200px;
+    font-family: 'Tangerine', serif;
+}
+
+
+/* Titulo H2 Quienes somos*/
+.quienesSomos h2{
+    font-family: 'Tangerine', serif;
+    font-size: 4rem;
+    margin-left: 40%;
+   
+}
+
+.quienesSomos p{
+    font-size: 120%;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+
+
+ 
+.contenidoImagen{
+
+    width: 100%;
+}
+
+
+.productos{
+
+
+    margin: 15%;
+    text-align: center;
+
+
+}
+
+
+.productos img{
+
+    width: 70%;
+    height: 50%;
+    align-items: center;
+
+
+}
+.productos h2 ,h3, p{
+    font-size:100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+#plantas{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    text-align: center;
+    
+}
+
+#plantas h2{
+
+    font-family: 'Tangerine', serif;
+    font-size: 5rem;
+}
+#plantas img{
+    
+    width: 70%;
+    height: 50%;
+    align-items: center;
+   
+}
+
+#plantas h2 ,h3, p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.productos h2{
+
+    font-family: 'Tangerine', serif;
+    font-size: 5rem;
+
+}
+
+
+.contenedorFooter{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.contenedorFooter h1{
+
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 5rem;
+
+}
+
+.contenedorFooter .accordion{
+
+    background-color: red;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 100px;
+}
+
+
+#collapseTwo iframe{
+    width: 100%;
+    height: 300px;
+   
+}
+
+
+.accordion-body{
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-body div{
+
+    text-decoration: none;
+    margin-right: 5%;
+
+}
+.accordion-body a{
+
+    text-decoration: none;
+    
+
+}
+
+.accordion-body p{
+
+    margin-right: 1%;
+  
+    
+
+}
+
+

@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+</head>
+
+<body>
+    <header id="header">
+        <!-- Inicio del Navbar-->
+        <nav class="navbar navbar-expand-lg bg-light  ">
+            <div class="container-fluid">
+                <!-- Aca Hiba el logo hay que colocar el img  y configurar los estilso-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mr-auto ">
+                        <li class="nav-item active">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#somos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tienda
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#plantas"> Plantas </a></li>
+                                <li><a class="dropdown-item" href="#macetas"> Macetas</a></li>
+                                <li><a class="dropdown-item" href="#incecticidas">Incecticidas y Fertilizantes </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin del Navbar-->
+    <main id="main">
+        <!-- Inicio del Carusel-->
+        <div class="contenedorCarousel container">
+            <div item id="carousel" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+                data-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/portada/3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <!-- Imagen  y frace carucel-->
+                <div class="overlay">
+                    <div class="contenedor">
+                        <div class="contenedorImg">
+                            <img src="/img/logo.png" class="img-fluid" alt="Responsive image">
+                        </div>
+
+                        <div class="contenedorTitulo">
+                            <h1> Tu Mejor opcion en suculentas</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin del Carusel-->
+
+
+
+
+        <!-- Inicio del Main-->
+        <div class="contenedormain container"  >
+            <div class="quienesSomos row" id="#somos" >
+                <h2 class="row " id="somos"> Quienes Somos</h2>
+                <p class="col">Ubicado en el corazón de la ciudad de Guatemala, Orquídeas SyM recrea un ecosistema único en una de
+                    las
+                    zonas más dinámicas de la ciudad. Un espacio donde contemplar la belleza natural de muchos rincones
+                    del
+                    mundo a través de especies exóticas. Con los años, hemos trabajado en una colección muy especial de
+                    orquídeas, bromelias, helechos y aráceas, y algunas begonias, nepentes y palmeras.
+
+                </p>
+            </div>
+            <div class="contenidoImagen ">
+                <img src="img/contenido.jpeg" alt="">
+
+            </div>
+        </div>
+        <hr>
+        <!-- Inicio del Tienda incecticidas-->
+
+
+        <H2 id="tituloTienda">Tienda</H2>
+       
+
+
+
+
+
+        <!-- Inicio de tienda plantas-->
+
+        <div class="" id="plantas">
+            <h2>Plantas</h2>
+            <table class="table table">
+                <thead>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="img/Suculentas/1.webp" alt="">
+                            <h3>Agrobeta</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+
+                        </td>
+                        <td><img src="/img/Suculentas/2.jpg" alt="">
+                            <h3>Cardens</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                        <td><img src="/img/Suculentas/3.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/Suculentas/4.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td><img src="/img/Suculentas/5.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td> <img src="/img/Suculentas/6.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/Suculentas/maceta1.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td><img src="/img/Suculentas/maceta2.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td> <img src="/img/Suculentas/maceta3.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+        <!-- Fin de tiendas plantas-->
+
+
+
+        <!--  Inicio Tienda macetas-->
+
+
+        <div id="plantas">
+            <h2 id="macetas">Macetas</h2>
+            <table class="table table">
+                <thead>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="img/macetas/1.jpg" alt="">
+                            <h3>Agrobeta</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+
+                        </td>
+                        <td><img src="/img/macetas/2.jpg" alt="">
+                            <h3>Cardens</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                        <td><img src="/img/macetas/3.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/macetas/12.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td><img src="/img/macetas/5.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td> <img src="/img/macetas/6.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/macetas/4.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td><img src="/img/macetas/9.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td> <img src="/img/macetas/10.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+
+        <!-- Fin tienda macetas-->
+
+
+
+        <div class="productos">
+
+            <h2 id="incecticidas">Incecticidas y Fertilizantes</h2>
+
+            <table class="table table">
+                <thead>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/productos/fertilizante.jpg" alt="">
+                            <h3>Agrobeta</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+
+                        </td>
+                        <td><img src="/img/productos/fertilizante2.jpg" alt="">
+                            <h3>Cardens</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                        <td><img src="/img/productos/fertilizante3.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="/img/productos/incectizida1.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td><img src="/img/productos/incectizida2.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                        <td>> <img src="/img/productos/incectizida3.jpg" alt="">
+                            <h3>Organic Succulent & Cactus</h3>
+                            <p>atomizador</p>
+                            <p>Q70.00</p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Fin de tienda Plantas-->
+
+    </main>
+
+
+    <footer>
+
+        <div class="contenedorFooter">
+            <h1 class="tituloContacto" id="contacto"> Contacto</h1>
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Contacto
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            <p> Telefono: +502 2435-5421</p>
+                            <p> Cel: +502 4013-2518 </p>
+                            <p> Email: verdebendito@gmail.com</p>
+                            <p>Watsapp: +502 4013-2518</p>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ubicacion
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2863463938847!2d-90.56767488595017!3d14.63968018004447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a0348e4e7bd9%3A0xd87df2a461d26024!2sCalz.%20San%20Juan%203952%2C%20Cdad.%20de%20Guatemala!5e0!3m2!1ses-419!2sgt!4v1671684809633!5m2!1ses-419!2sgt"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Redes Sociales
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body " >
+                            <div>
+                                 <a href="#">Facebook</a>   
+                            </div>
+                            <div>
+                                <a href="#">Instagram</a>
+                            </div>
+                            <div>
+                                <a href="#">Tictok</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
